@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainDiv {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  vertical-align: middle;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: wrap;
+ 
+}
+
+h1{
+  margin:0;
+}
+
+.Header{
+  background-color: rgb(98, 93, 107);
+}
+
+.btn {
+  margin:15px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color:aqua; /* Green background color */
+  //color: ; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 15px; /* Optional: rounded corners */
+  cursor: pointer;
+  transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+
+.btn:active {
+  background-color: #3e8e41; /* Dark green color when button is clicked */
+}
+
+.content{
+  font-size: 200px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
